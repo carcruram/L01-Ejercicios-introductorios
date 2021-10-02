@@ -3,6 +3,7 @@
 Crea dos módulos en un proyecto python (`calificaciones.py` y `calificaciones_test.py`) e implementa los siguientes ejercicios. Separa la definición de las funciones, incluyéndolas en el módulo ejercicios.py, de la invocación para probar esas funciones, incluyéndolas en el módulo ejercicios_test.py.
 
 ### Ejercicio 1 
+
 Se quiere ayudar a los alumnos de Fundamentos de Programación a calcular la nota de sus cuestionarios de teoría. Como estos alumnos estudian Python, se quieren implementar funciones que permitan hacer este cálculo. Para resolver un problema, antes hay que entenderlo, así que, antes de implementar los apartados siguientes, vamos a explicar el problema a resolver.
 
 Un cuestionario de teoría está compuesto por 10 preguntas. Cada pregunta tiene asociadas 5 posibles respuestas, que se enumeran desde la a) hasta la e). Las preguntas son de respuesta múltiple. Lo que implica que puede haber una respuesta correcta, dos, tres, cuatro o, incluso cinco. Una vez que el alumno lee una pregunta, tiene que trasladar sus respuestas a una cuadrícula que aparece en la primera página del cuestionario, similar a la que puedes ver en la imagen que se muestra a continuación. Esta imagen se corresponde con las respuestas que la alumna Ada Byron marcó en el primer cuestionario de la asignatura. Fíjate que Ada marcó como respuestas correctas a la pregunta 1 las opciones a), b) y e). Además, una vez que Ada terminó su cuestionario, contó el número de casillas que había marcado con una X, y puso ese número en la casilla situada a la derecha de la celda Número total de casillas marcadas. Como puedes comprobar, Ada creía que en el cuestionario había 26 respuestas correctas.
@@ -40,5 +41,33 @@ Como ejemplo, puedes ver en la siguiente imagen cómo se calcularía la nota de 
 
 #### Apartado b
 
-Escribe una función en python que solicite por consola el número de errores
+Escribe una función en python que solicite por consola el número de errores, el número de aciertos y el número total de respuestas correctas, y devuelva tres enteros correspondientes a los tres datos leídos por la consola.
 
+### Apartado c
+
+En el modulo `calificaciones_test.py` invoque a las dos funciones anteriores para ayudar a Ada a calcular la nota de su cuestionario.
+
+
+### Ejercicio 2
+
+Se quiere ayudar a los alumnos de Fundamentos de Programación a calcular la nota por evaluación continua que ha obtenido en la asignatura, de acuerdo a las siguientes fórmulas, donde Ci es la nota del cuestionario i, Pi es la nota del examen práctico i y PRYi es la nota del proyecto i (todas números reales de 0 a 10).
+
+![image](https://user-images.githubusercontent.com/72299672/135714354-b70e76c2-16b7-4b00-a804-4935a70e0cfe.png).
+
+Para estructurar bien el código divide el problema en las siguientes funciones:
+
+#### Apartado a
+
+Escribe una función `calcula_nota_cuatrimestre` que tenga como entrada tres parámetros: cuestionarios, una tupla con tres números reales correspondientes a las notas de los tres cuestionarios del cuatrimestre; parcial, una nota correspondiente al examen práctico; y proyecto, una nota correspondiente al proyecto. Esta función debe devolver la nota del estudiante en el cuatrimestre. Esta nota se calcula de la siguiente forma: si la nota del proyecto es inferior a 5, entoces la nota del cuatrimestre es un 3; si la nota del proyecto es superior o igual a 5, entonces la nota del cuatrimestre se calcula con la fórmula indicada anteriormente.
+
+#### Apartado b
+
+Escribe una función `calcula_nota_evaluacion_continua` que tenga como entrada tres parámetros: cuestionarios, una tupla con seis números reales correspondientes a las notas de los seis cuestionarios del cuatrimestre; parciales, una tupla con dos valores reales, correspondientes a los dos exámenes prácticos del cuatrimestre; y proyectos, una tupla con dos valores reales correspondiente a las notas de los dos proyectos de curso. Esta función debe devolver la nota del estudiante por evaluación continua. Esta nota se calcula de la siguiente forma:  si la nota del primer cuatrimestre es inferior a 4 o la nota del segundo cuatrimestre es inferior a 4, entonces la nota de la evaluación continua es 4. Si la nota de ambos cuatrimestres es superior a 4, entonces la nota se calcula como la media de las notas de los dos cuatrimestres, tal y como se muestra en la fórmula anterior.
+
+#### Apartado c
+
+Escribe tres funciones, en python para solicitar por consola las notas de los cuestionarios, las notas de los parciales y las notas de los proyectos.
+
+#### Apartado d
+
+En el modulo `calificaciones_test.py` invoque a las funciones anteriores para ayudar a Ada a calcular su nota por evaluación continua.
