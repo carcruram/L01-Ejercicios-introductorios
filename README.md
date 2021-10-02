@@ -45,12 +45,12 @@ Escribe una función en python que solicite por consola el número de errores, e
 
 ### Apartado c
 
-En el modulo `calificaciones_test.py` invoque a las dos funciones anteriores para ayudar a Ada a calcular la nota de su cuestionario.
+En el modulo `calificaciones_test.py` invoca a las dos funciones anteriores para ayudar a Ada a calcular la nota de su cuestionario.
 
 
 ### Ejercicio 2
 
-Se quiere ayudar a los alumnos de Fundamentos de Programación a calcular la nota por evaluación continua que ha obtenido en la asignatura, de acuerdo a las siguientes fórmulas, donde Ci es la nota del cuestionario i, Pi es la nota del examen práctico i y PRYi es la nota del proyecto i (todas números reales de 0 a 10).
+Se quiere ayudar a los alumnos de Fundamentos de Programación a calcular la nota por evaluación continua que han obtenido en la asignatura, de acuerdo a las siguientes fórmulas, donde Ci es la nota del cuestionario i, Pi es la nota del examen práctico i y PRYi es la nota del proyecto i (todas números reales de 0 a 10).
 
 ![image](https://user-images.githubusercontent.com/72299672/135714354-b70e76c2-16b7-4b00-a804-4935a70e0cfe.png).
 
@@ -70,4 +70,4 @@ Escribe tres funciones, en python para solicitar por consola las notas de los cu
 
 #### Apartado d
 
-En el modulo `calificaciones_test.py` invoque a las funciones anteriores para ayudar a Ada a calcular su nota por evaluación continua.
+En el modulo `calificaciones_test.py` invoca a las funciones anteriores para ayudar a Ada a calcular su nota por evaluación continua.
