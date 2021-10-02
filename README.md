@@ -1,6 +1,6 @@
 # L01-Ejercicios-introductorios
 
-Crea dos módulos en un proyecto python (`ejercicios.py` y `ejercicios_test.py`) e implementa los siguientes ejercicios. Separa la definición de las funciones, incluyéndolas en el módulo ejercicios.py, de la invocación para probar esas funciones, incluyéndolas en el módulo ejercicios_test.py.
+Crea dos módulos en un proyecto python (`calificaciones.py` y `calificaciones_test.py`) e implementa los siguientes ejercicios. Separa la definición de las funciones, incluyéndolas en el módulo ejercicios.py, de la invocación para probar esas funciones, incluyéndolas en el módulo ejercicios_test.py.
 
 ### Ejercicio 1 
 Se quiere ayudar a los alumnos de Fundamentos de Programación a calcular la nota de sus cuestionarios de teoría. Como estos alumnos estudian Python, se quieren implementar funciones que permitan hacer este cálculo. Para resolver un problema, antes hay que entenderlo, así que, antes de implementar los apartados siguientes, vamos a explicar el problema a resolver.
