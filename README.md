@@ -43,7 +43,7 @@ Como ejemplo, puedes ver en la siguiente imagen cómo se calcularía la nota de 
 
 Escribe una función en python que solicite por consola el número de errores, el número de aciertos y el número total de respuestas correctas, y devuelva tres enteros correspondientes a los tres datos leídos por la consola.
 
-### Apartado c
+#### Apartado c
 
 En el modulo `calificaciones_test.py` invoca a las dos funciones anteriores para ayudar a Ada a calcular la nota de su cuestionario.
 
