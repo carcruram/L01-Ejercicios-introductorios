@@ -1,6 +1,6 @@
 # L01-Ejercicios-introductorios
 
-Crea dos módulos en un proyecto python (`calificaciones.py` y `calificaciones_test.py`) e implementa los siguientes ejercicios. Separa la definición de las funciones, incluyéndolas en el módulo `ejercicios.py`, de la invocación para probar esas funciones, incluyéndolas en el `módulo ejercicios_test.py`.
+Crea dos módulos en un proyecto Python (`calificaciones.py` y `calificaciones_test.py`) e implementa los siguientes ejercicios. Separa la definición de las funciones, incluyéndolas en el módulo `ejercicios.py`, de la invocación para probar esas funciones, incluyéndolas en el `módulo ejercicios_test.py`.
 
 ### Ejercicio 1 
 
