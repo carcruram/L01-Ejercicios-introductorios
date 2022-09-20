@@ -14,7 +14,7 @@ Cuando la profesora de Ada va a corregir su cuestionario, usa una plantilla simi
 
 ![image](https://user-images.githubusercontent.com/72299672/135712630-2c7ed015-7877-460b-8529-6bab3a1ad376.png)
 
-Para corregir el cuestionario de Ada, la profesora marca en rojo los errores, y cuenta para cada pregunta el número de aciertos y el número de errores, tal como se ve en la siguiente captura. Si te fijas de nuevo en la pregunta 1, podrás comprobar que Ada tiene dos aciertos (marcó sendas equis en las respuesta a) y b), que efectivamente eran respuestas correctas); tiene un error (ya que puso una X en la repuesta e), que es una respuesta incorrecta; y, finalmente, tiene una respuesta no encontrada, ya que la respuesta d) era correcta, y Ada no la marcó con una X.
+Para corregir el cuestionario de Ada, la profesora marca en rojo los errores, y cuenta para cada pregunta el número de aciertos y el número de errores, tal como se ve en la siguiente captura. Si te fijas de nuevo en la pregunta 1, podrás comprobar que Ada tiene dos aciertos (marcó sendas equis en las respuestas a) y b), que efectivamente eran respuestas correctas); tiene un error (ya que puso una X en la repuesta e), que es una respuesta incorrecta; y, finalmente, tiene una respuesta no encontrada, ya que la respuesta d) era correcta, y Ada no la marcó con una X.
 
 ![image](https://user-images.githubusercontent.com/72299672/135713363-34494ae6-eebf-41c4-9583-769d78ac8e24.png)
 
@@ -52,7 +52,7 @@ En el modulo `calificaciones_test.py` invoca a las dos funciones anteriores para
 
 Se quiere ayudar a los alumnos de Fundamentos de Programación a calcular la nota por evaluación continua que han obtenido en la asignatura, de acuerdo a las siguientes fórmulas, donde Ci es la nota del cuestionario i, Pi es la nota del examen práctico i y PRYi es la nota del proyecto i (todas números reales de 0 a 10).
 
-![image](https://user-images.githubusercontent.com/72299672/135714354-b70e76c2-16b7-4b00-a804-4935a70e0cfe.png).
+![image](https://user-images.githubusercontent.com/72299672/191313732-6d5b1146-c3bd-4685-a4e0-4bb92f7940fe.png)
 
 Para estructurar bien el código divide el problema en las siguientes funciones:
 
