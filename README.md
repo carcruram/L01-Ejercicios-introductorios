@@ -41,7 +41,7 @@ Como ejemplo, puedes ver en la siguiente imagen cómo se calcularía la nota de 
 
 #### Apartado b
 
-Escribe una función en python que solicite por consola el número de errores, el número de aciertos y el número total de respuestas correctas, y devuelva tres enteros correspondientes a los tres datos leídos por la consola.
+Escribe una función en Python que solicite por consola el número de errores, el número de aciertos y el número total de respuestas correctas, y devuelva tres enteros correspondientes a los tres datos leídos por la consola.
 
 #### Apartado c
 
