@@ -8,7 +8,7 @@ def test_calcula_calificaciones():
 
 def test_calcula_nota_cuatrimestre(parciales, proyectos, cuestionarios):
     nota_final = calcula_nota_cuatrimestre(parciales, proyectos, cuestionarios)
-    print(f'La nota del cuatrimestre es: {nota_final:2f}')
+    print(f'La nota del cuatrimestre 1 es: {nota_final:2f}')
 
 def test_calcula_nota_cuatrimestre2(parciales, proyectos, cuestionarios):
     nota_final = calcula_nota_cuatrimestre2(parciales, proyectos, cuestionarios)
